@@ -31,6 +31,61 @@
 		<title>Bootstrap Practice</title>
 	</head>
 	<body>
-		Hello!
+
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Hello Bootstrap!</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- begin grid layout -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Column 1</h2>
+					<p>Deflector power at maximum. Energy discharge in six seconds. Warp reactor core primary coolant failure. Fluctuate phaser resonance frequencies. Resistance is futile. Recommend we adjust shield harmonics to the upper EM band when proceeding. These appear to be some kind of power-wave-guide conduits which allow them to work collectively as they perform ship functions. Increase deflector modulation to upper frequency band.</p>
+				</div>
+				<div class="col-md-6">
+					<h2>Column 2</h2>
+					<p>We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.</p>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-md-12 hidden-xs">
+					<h2>Column 3</h2>
+					<p>Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off. Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+				</div><!--/.row-->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Column 4</h2>
+					<p>Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+				</div>
+				<div class="col-md-4">
+					<h2>Column 5</h2>
+					<p>Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+				</div>
+				<div class="col-md-4">
+					<h2>Column 6</h2>
+					<p>Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+				</div>
+			</div><!--/.row-->
+		</div><!-- /.container -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<small>This is a footer</small>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
